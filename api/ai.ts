@@ -200,10 +200,10 @@ export const URI_LAB_INFO: URI_LAB_INFO_TYPE = {
         current: [
             {
                 name: "AI-powered Chatbots for Small Businesses",
-                description: "Developing affordable and easy-to-implement chatbot solutions for small businesses",
+                description: "Developing affordable and easy-to-implement chatbot solutions for small businesses. We are creating chatbots that can handle customer service tasks like order tracking, inventory management, and customer support.",
                 status: "Active",
                 team: ["Faculty Lead", "2 Graduate Students", "3 Undergraduate Students"],
-                technologies: ["Python", "TensorFlow", "React Native", "Node.js"],
+                technologies: ["React Native", "Node.js", "OpenAI API", "Python", "TensorFlow"],
                 goals: [
                     "Create user-friendly chatbot development platform",
                     "Implement multi-language support",
@@ -212,7 +212,55 @@ export const URI_LAB_INFO: URI_LAB_INFO_TYPE = {
                 ],
                 partners: ["Local Business Association", "Small Business Development Center"],
                 timeline: "12 months",
-                funding: "Industry Partnership Grant"
+                funding: "AI Lab + URI Small Business Development Center"
+            },
+            {
+                name: "AI-powered Document Analyzer for the Department of Emergency Management",
+                description: "Developing a documnent analyzer for the Department of Emergency Management to help them analyze and understand new documents and add the important informatoin into their master document. This project uses AI to anaylze the documents and then Python to merge, format, and output the information into the master document.",
+                status: "Active",
+                team: ["Faculty Lead", "2 Graduate Students", "3 Undergraduate Students"],
+                technologies: ["Python + FastAPI", "React + Vite", "Node.js", "OpenAI API"],
+                goals: [
+                    "Create user-friendly chatbot development platform",
+                    "Implement multi-language support",
+                    "Develop industry-specific templates",
+                    "Ensure GDPR and data privacy compliance"
+                ],
+                partners: ["Department of Emergency Management"],
+                timeline: "6 months",
+                funding: "Department of Emergency Management"
+            },
+            {
+                name: "Virtual Reality SVM (Support Vector Machine) Training Game",
+                description: "Developing a virtual reality game to help train students to use SVMs (Support Vector Machines) to classify data. This project uses Unity and Python to create the game and train the SVMs.",
+                status: "Active",
+                team: ["Faculty Lead", "2 Graduate Students", "3 Undergraduate Students"],
+                technologies: ["Unity"],
+                goals: [
+                    "Create user-friendly chatbot development platform",
+                    "Implement multi-language support",
+                    "Develop industry-specific templates",
+                    "Ensure GDPR and data privacy compliance"
+                ],
+                partners: ["Department of Computer Science", "AI Lab"],
+                timeline: "6 months",
+                funding: "Department of Computer Science, AI Lab, URI Small Business Development Center"
+            },
+            {
+                name: "Ocean Fish Classification using Object Detection",
+                description: "Detecting and classifying fish in images to help URI's Oceanography Department and Department of Environmental Management and Planning with their ocean monitoring and management efforts. This project uses Python and TensorFlow to create the model and detect the fish.",
+                status: "Active",
+                team: ["Faculty Lead", "2 Graduate Students", "3 Undergraduate Students"],
+                technologies: ["Python", "TensorFlow", "OpenCV", "YOLO"],
+                goals: [
+                    "Create user-friendly chatbot development platform",
+                    "Implement multi-language support",
+                    "Develop industry-specific templates",
+                    "Ensure GDPR and data privacy compliance"
+                ],
+                partners: ["Department of Environmental Management and Planning", "Department of Oceanography"],
+                timeline: "6 months",
+                funding: "Department of Environmental Management and Planning, Department of Oceanography"
             },
             {
                 name: "Ethics in AI",
